@@ -13,8 +13,8 @@ class TestCreateTask:
 
     def inject_cookie(self):
         self.driver.get('https://app.connecteam.com/')
-        self.driver.add_cookie({'name': 'session', 'value': '2|1:0|10:1637512388|7:session|48:NDVhN2EyZjAtOWY4Ni00ODk1LTlkMGQtNmRlMTc1YjhhNjhh|9a6b06a59ba1f13d9ebcbcc269b8e5a2af54472228092bab66b6180fd6dbc82d', 'domain': '.app.connecteam.com'})
-        self.driver.add_cookie({'name': '_spirit', 'value': 'bb4f8186-efbf-468f-b736-b7cab8b9afae', 'domain': '.app.connecteam.com'})
+        self.driver.add_cookie({'name': 'session', 'value': '2|1:0|10:1639476584|7:session|48:MDg0Nzk0YzMtOWYyYi00OGNhLTk4YTUtMzg3NzMyMjJiY2Y3|2dd6ca9d422d63931445fcb225f0b8bbaa960d4a60adebe07a8bdc85e2a7b057', 'domain': '.app.connecteam.com'})
+        self.driver.add_cookie({'name': '_spirit', 'value': 'ddc64e4e-0e59-44be-9704-8cac4a5a23bd', 'domain': '.app.connecteam.com'})
 
     def setup_method(self):
         pass
