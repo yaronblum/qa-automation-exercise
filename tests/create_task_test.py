@@ -23,3 +23,4 @@ class TestCreateTask:
         self.inject_cookie()
         url = 'https://app.connecteam.com/#/index/task-management/taskManagement'
         self.driver.get(url)
+        time.sleep(5)
